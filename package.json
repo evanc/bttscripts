@@ -1,0 +1,17 @@
+{
+  "name": "btttools",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --outfile=dist/index.js && cp src/*.html dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chrono-node": "^2.7.9"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.2"
+  }
+}
