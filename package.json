@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "esbuild src/index.js --bundle --outfile=dist/index.js && cp src/*.html dist/"
+    "build": "esbuild src/index.js --bundle --format=iife --global-name=btt --outfile=dist/index.js && cp src/*.html dist/"
   },
   "author": "",
   "license": "ISC",
